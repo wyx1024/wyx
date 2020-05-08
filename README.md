@@ -18,3 +18,4 @@ go run distributed_crawler/rpc/server/worker/rpc.go -worker_host=PORT_WORKER2
 启动程序
 
 go run distributed_crawler/main.go -item_host=":PORT" -worker_hosts=":PORT_WORKER,:PORT_WORKER2"
+
